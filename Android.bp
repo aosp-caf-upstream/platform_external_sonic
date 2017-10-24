@@ -9,6 +9,6 @@ cc_library_shared {
         "-Wall",
         "-Werror",
     ],
-
-    cppflags: ["-std=c++98"],
+    export_include_dirs: ["."],
+    cpp_std: "c++98",
 }
